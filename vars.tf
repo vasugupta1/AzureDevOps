@@ -12,3 +12,8 @@ variable "function_app_name" {
   type = string
   default = "samplefunctionapp"
 }
+
+variable "vm_name" {
+  type = string
+  default = "samplelinuxvm"
+}
